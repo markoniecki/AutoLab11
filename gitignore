@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# Build artifacts
+*.exe
+*.zip
+*.lbx
+*.bmp
+*.log
+*.bak
+temp_lbx*
+lbx_unpacked*/
+lbx_work*/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Custom temp
+coton.txt
