@@ -131,7 +131,7 @@ def generator9mm(napisy9mmZlaczkiOdp):
     work_dir = f"lbx_unpacked_{timestamp}"
     temp_zip = f"temp_lbx_{timestamp}.zip"
     temp_lbx = f"temp_lbx_{timestamp}.lbx"
-    modified_file = os.path.join(get_excel_folder_from_temp(), "Szbx9mm_modified.lbx")
+    modified_file = os.path.join(get_excel_folder_from_temp(), "tasma_9mm.lbx")
 
     os.makedirs(work_dir, exist_ok=True)
 

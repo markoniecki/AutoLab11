@@ -68,6 +68,7 @@ def get_excel_folder_from_temp():
 
     return folder_path
 
+
 # def get_full_excel_path():
 #     # Ścieżka do coton.txt (na sztywno)
 #     coton_path = r"\\fs1\\Oddział Energetyki kolejowej\\EK\\8_Produkcja\\4_Naklejki do rozdzielnic\\testowy\\AutoLabel\\coton.txt"

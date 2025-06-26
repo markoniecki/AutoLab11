@@ -263,7 +263,7 @@ def generator6mm_normal(napisy6mmZlaczkiOdp):
     work_dir = f"lbx_unpacked_{timestamp}"
     temp_zip = f"temp_lbx_{timestamp}.zip"
     temp_lbx = f"temp_lbx_{timestamp}.lbx"
-    modified_file = os.path.join(get_excel_folder_from_temp(), "Szbx6mm_modified.lbx")
+    modified_file = os.path.join(get_excel_folder_from_temp(), "tasma_6mm.lbx")
 
     os.makedirs(work_dir, exist_ok=True)
 
