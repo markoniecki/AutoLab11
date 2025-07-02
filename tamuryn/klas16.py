@@ -82,7 +82,7 @@ rodzajBezpieki = rodzajZabezpieczeniaSTV_VLD_S30_()
 for c in range(iloscObwodow):
     szer_mm = oblicz_szerokosc(dane_lista[c], rodzajBezpieki[c])
     ramki_cfg.append({
-        89: {"width": 213.0},  # STV 3-p
+        89: {"width": 219.0},  # STV 3-p
         60: {"width": 140.0},  # STV 2-p
         27: {"width":  65.0},  # STV 1-p  (wąska → 5 pt)
         58: {"width": 142.0},  # VLD 3-p

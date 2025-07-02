@@ -16,6 +16,7 @@ a = Analysis(
         ('tamuryn/bazolecSH.lbx', 'tamuryn'),
         ('tamuryn/bazolecSH_SL.lbx', 'tamuryn'),
         ('tamuryn/class15.py', 'tamuryn'),
+        #('tamuryn/class15.py', 'tamuryn'),
 
         ('utils/odczyt_tabela_material_NewSheet.py', 'utils')
 
